@@ -8,7 +8,7 @@ def main():
                              min_value=0,
                              max_value=900)
     if st.button("Calculate"):
-        result = fact(number)
+        result = round(fact(number),2)
         st.write(f"The factorial of {number} is {result}")
 
 
